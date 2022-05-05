@@ -1,0 +1,51 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Installations",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "link",
+        "label": "Création du projet",
+        "href": "/docs/création",
+        "docId": "création"
+      },
+      {
+        "type": "link",
+        "label": "Projet cinéma",
+        "href": "/docs/projet_one",
+        "docId": "projet_one"
+      }
+    ]
+  },
+  "docs": {
+    "création": {
+      "id": "création",
+      "title": "Création du projet",
+      "description": "Init",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Installations",
+      "description": "Installer nodejs",
+      "sidebar": "tutorialSidebar"
+    },
+    "projet_one": {
+      "id": "projet_one",
+      "title": "Projet cinéma",
+      "description": "1ere étape : Ouverture du cinéma",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

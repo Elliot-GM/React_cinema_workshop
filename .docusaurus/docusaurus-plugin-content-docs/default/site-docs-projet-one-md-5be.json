@@ -1,0 +1,22 @@
+{
+  "unversionedId": "projet_one",
+  "id": "projet_one",
+  "title": "Projet cinéma",
+  "description": "1ere étape : Ouverture du cinéma",
+  "source": "@site/docs/projet_one.md",
+  "sourceDirName": ".",
+  "slug": "/projet_one",
+  "permalink": "/docs/projet_one",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/projet_one.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Création du projet",
+    "permalink": "/docs/création"
+  }
+}

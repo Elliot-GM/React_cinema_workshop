@@ -1,0 +1,26 @@
+{
+  "unversionedId": "création",
+  "id": "création",
+  "title": "Création du projet",
+  "description": "Init",
+  "source": "@site/docs/création.md",
+  "sourceDirName": ".",
+  "slug": "/création",
+  "permalink": "/docs/création",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/création.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installations",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Projet cinéma",
+    "permalink": "/docs/projet_one"
+  }
+}
