@@ -1,33 +1,35 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
-# Projet cinéma
+# Project cinema
 
-## 1ere étape : Ouverture du cinéma
+## 1st step : Open your cinema
 
-Ajouter des éléments dans l'App, un texte centré et une image.
+Add elements in App, a centered text and an image.
+
 ```
 function App() {
   return (
     <div className="App">
-        {nom de votre cinéma}
+        {name of your cinema}
         {image}
     </div>
   );
 }
 ```
 
-## 2eme étape : Choix types de tickets
+## 2nd step : Chose your types of ticket
 
-Afficher un tableau de 5 éléments avec une map.
+Display an array of 5 string with map.
+
 ```
 function App() {
-  {déclarer le tableau}
+  {declare the array}
   return (
     <div className="App">
-        {étape 1}
-        {afficher les éléments du tableau}
+        {step 1}
+        {display array elements}
     </div>
   );
 }
@@ -35,26 +37,29 @@ function App() {
 
 :::tip
 
-A quoi sert map ?
+What is map used for?
 
 :::
 
-## 3eme étape : Ajouter les prix des tickets
+## 3rd step : Add ticket prices
 
-Créer un composant qui ajoutera les prix de vos tickets.
+Create a component that will add the prices of your tickets.
+
 ```
-{nouvelle fonction}
+{new function}
 
 function App() {
+  ...
   return (
-    {étape 1 et 2}
+    {step 1}
+    {step 3}
   );
 }
 ```
 
-## 4eme étape : Rendre le code plus beau
+## 4th step : Make the code more beautiful
 
-Créer un composant pour chaques étapes que vous avez créer et appeler les dans l'App.
+Create a component for each step you created and call them in the App.
 ```
 {composant étape 1}
 {composant étape 2}
@@ -69,48 +74,59 @@ function App() {
 }
 ```
 
-## 5eme étape : Ajouter les films
+## 5th step : Get movies
 
-Utiliser l'API Allocine pour récuperer et afficher 10 films (image + nom).
-
-:::info
-
-https://wiki.gromez.fr/dev/api/allocine_v3
-
-:::
-
-## 6eme étape : Ajouter les infos des films
-
-Utiliser l'API Allocine pour récuperer et afficher les infos des 10 films.
-
-Vous ajouterer un bouton pour les affichers ou les cachers.
+Use the OMDb API to retrieve 10 movie names.
 
 :::info
 
-Vous pouvez utiliser des API, etc...
+https://www.omdbapi.com/
+
+You need to create a free account and generate a "API Key"
 
 :::
 
 :::tip
 
-Qu'est ce qu'un hook ?
-Qu'est ce qu'un state ?
+How can I see movie's data without displaying them ?
 
 :::
 
-## 7eme étape : Banières
+## 6th step : Add movies
 
-Faire une banière (header) en haut de la page et une autre en bas de la page (footer).
+Display the name and some information of each film.
 
-L'header sera composé à gauche du nom de votre cinéma et d'un logo. A droite de liens menant à d'autres pages.
+Each film (name + data) must be separete in differente box.
 
-Le footer de 3 textes Lorem Itum centrés. Chaque texte aura un alignement de texte différent.
+## 7th step : The evil buton
 
-## Bonus : Etape NRV
+Add a button to display or hide film's data.
 
-Appliquer éléctron à votre projet pour en faire une application.
+:::tip
 
-**Et/Ou**
+What is a hook?
+What is a state?
 
-Ettoffer votre site avec des composants tel que la génération de graphiques ou autres.
-(demander si vous n'avez pas d'idée)
+:::
+
+## 8eme étape : Bruce
+
+Make a banner (header) at the top of the page and another at the bottom of the page (footer).
+
+The header will be composed :
+  - on the left : the name of your cinema and a logo.
+  - on the right : links leading to other pages.
+
+The footer of 3 centered Lorem Itum texts. Each text will have a different text alignment.
+
+## Bonus : NRV
+
+Expand your site with components such as graphics generation or others.
+
+**And/Or**
+
+Create your Back-end API
+
+**And/Or**
+
+Apply electron to your project to make it an app.

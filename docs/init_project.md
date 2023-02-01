@@ -1,15 +1,15 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Création du projet
+# Creation of the projet
 
 ## Init
 
 ```
 npx create-react-app {project_name} --template typescript
 ```
-Si vous avez un problème de version :
+If you have a version problem :
 ```
 npx create-react-app@latest {project_name} --template typescript
 ```
@@ -19,7 +19,7 @@ cd {project_name}
 npm start
 ```
 
-## Modifier les fichiers
+## Modify files
 
 ```text title="app.tsx"
 // highlight-start
@@ -83,6 +83,11 @@ code {
 
 :::tip
 
-Supprimer les autres fichiers dans src/
+Delete other files in src/
 
 :::
+
+Start your project :
+```text
+npm start
+```
